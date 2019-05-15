@@ -1,3 +1,5 @@
+#CREATE DATABASE Tech;
+
 USE Tech;
 
 -- Create tables for raw data to be loaded into
