@@ -1,4 +1,5 @@
-#CREATE DATABASE Tech;
+-- DROP DATABASE Tech;
+CREATE DATABASE Tech;
 
 USE Tech;
 
@@ -18,3 +19,9 @@ CREATE TABLE Tech_Info (
 );
 
 SELECT * FROM Tech_Info;
+
+SELECT url FROM Tech_Info
+WHERE url LIKE 'a%';
+
+SELECT * FROM Tech_Info
+WHERE Category IN ('Data','Management','Advertising & Promotion') AND Sub_Category = 'Projects & Workflow';
